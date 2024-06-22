@@ -979,6 +979,7 @@ img {
 .main-marq {
   position: relative;
   padding: 0;
+  overflow: hidden;
 }
 
 .main-marq:after {
