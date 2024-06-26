@@ -1348,8 +1348,9 @@ function decreaseCount(event, element) {
     var cartSubtotal = document.getElementById('cart-subtotal').textContent;
     var cartTotal = document.getElementById('cart-total').textContent;
     cartDetails += `\nCart Subtotal: ${cartSubtotal}\nCart Total: ${cartTotal}`;
-    var whatsappUrl = `https://wa.me/9995917827?text=${encodeURIComponent(cartDetails)}`;
-    window.open(whatsappUrl, '_blank');
+    var countryCode = '91'; // Replace with the appropriate country code
+    var phoneNumber = '9995917827';
+    var whatsappUrl = `https://wa.me/${countryCode}${phoneNumber}?text=${encodeURIComponent(cartDetails)}`;    window.open(whatsappUrl, '_blank');
   }
   
   // Initial cart totals calculation
