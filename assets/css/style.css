@@ -10531,7 +10531,7 @@ header.in-box {
   }
 }
 .cart_table {
-  border: 3px solid goldenrod;
+  border: 3px solid #ffaa17;
   padding: 40px;
   border-radius: 5px;
 }
